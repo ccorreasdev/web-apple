@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "SF";
+    src: url("../fonts/sf-pro-display_regular.woff2");
+}
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: "SF";
+    position: relative;
+}
+
+.nav__layout {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: solid 1px #d6d6d6;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem 4rem;
+}
+
+.nav__item {
+    font-size: 1.2rem;
+}
+
+.nav__button {
+    background-color: #0271e3;
+    padding: 0.5rem 1.8rem;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.nav__left {
+    font-size: 1.8rem;
+}
+
+.video__layout {
+    height: 200vh;
+    position: relative;
+}
+
+.video__container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: 0px;
+    z-index: 00;
+}
+
+.video {
+    width: 100%;
+}
